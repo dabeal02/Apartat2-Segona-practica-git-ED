@@ -6,7 +6,7 @@ public class Ejercicio1{
        
 		char lletra;
 		
-			System.out.println("Escriu una lletra i jo et diré si és vocal o consonant....");                   
+			System.out.println("Escriu una lletra i jo et diré si és vocal o consonant...");                   
             
 				lletra = Teclat.llegirChar();
 			
