@@ -6,9 +6,11 @@ public class Ejercicio1{
        
 		char lletra;
 		
-			System.out.println("Escriu una lletra i jo et diré si és vocal o consonant...");                   
+			System.out.println("Escriu una lletra i jo et diré si és vocal o consonant....");                   
             
 				lletra = Teclat.llegirChar();
+			
+				lletra = Character.toLowerCase(lletra); //Aquí diem que la lletra que ha posat el nostre usuari sigui minúsucula.
 				
 					if(lletra == 'a' || lletra == 'e' || lletra == 'i' || lletra == 'o' || lletra == 'u'){
 						System.out.println("La lletra és vocal");
